@@ -1,0 +1,22 @@
+# Sensitive Secrets
+.env
+
+# Databases & Zip Backups
+*.sqlite3
+*.db
+*.zip
+
+# Virtual Environment & Media
+venv/
+media/
+
+# Frontend Dependencies & Cache (If any)
+node_modules/
+frontend/node_modules/
+__pycache__/
+*.pyc
+
+# System / IDE Settings
+.vscode/
+.idea/
+.DS_Store
